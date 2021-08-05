@@ -6,10 +6,19 @@ public class ejercicio1 {
         el proceso se repetira hasta que se introduzca un 0
     */
     public static void main(String[] args) {
-        int num = 0 ,i = 0;
-        
-        while (i == num){
-            num = Integer.parseInt(JOptionPane.showInputDialog("ingrese un numero"));
-        } i++;
+        int num, i = 0;
+
+        num = Integer.parseInt(JOptionPane.showInputDialog("ingrese un numero"));
+
+        while(num != 0) {
+           if(num > 0) {
+               JOptionPane.showMessageDialog(null,"El numero " + num + " es positvo");
+               num = Integer.parseInt(JOptionPane.showInputDialog("ingrese un numero"));
+           } else {
+               JOptionPane.showMessageDialog(null,"El numero " + num + " es negativo");
+               num = Integer.parseInt(JOptionPane.showInputDialog("ingrese un numero"));
+           }
+        }
+        i++;
     }
 }
