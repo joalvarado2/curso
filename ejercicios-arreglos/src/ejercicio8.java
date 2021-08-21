@@ -34,7 +34,7 @@ public class ejercicio8 {
         for (int i = 7; i >= posicion; i--) {
             tabla[i + 1] = tabla[i];
         }
-        tabla[posicion] = num; // isertamos el numero
+        tabla[posicion] = num; // insertamos el numero
 
         for (int element : tabla) {
             System.out.print(element + " ");
