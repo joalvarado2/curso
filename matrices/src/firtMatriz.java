@@ -23,8 +23,8 @@ public class firtMatriz {
 
         // mostrando la matriz
         System.out.println("\nLa matriz es:");
-        for (int i = 0; i < nFilas; i++){
-            for (int j = 0; j < nColumnas; j++){
+        for (int i = 0; i < nFilas; i++){ // numero de filas
+            for (int j = 0; j < nColumnas; j++){ // numero de columnas
                 System.out.print(matriz[i][j]);
             }
             System.out.println("");
