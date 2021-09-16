@@ -6,6 +6,8 @@
       <module fileurl="file://$PROJECT_DIR$/ejercicios-arreglos/ejercicios-arreglos.iml" filepath="$PROJECT_DIR$/ejercicios-arreglos/ejercicios-arreglos.iml" />
       <module fileurl="file://$PROJECT_DIR$/ejercicios-bucles/ejercicios-bucles.iml" filepath="$PROJECT_DIR$/ejercicios-bucles/ejercicios-bucles.iml" />
       <module fileurl="file://$PROJECT_DIR$/ejercicios-condicionales/ejercicios-condicionales.iml" filepath="$PROJECT_DIR$/ejercicios-condicionales/ejercicios-condicionales.iml" />
+      <module fileurl="file://$PROJECT_DIR$/matrices/matrices.iml" filepath="$PROJECT_DIR$/matrices/matrices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/metodos-de-ordenamiento/metodos-de-ordenamiento.iml" filepath="$PROJECT_DIR$/metodos-de-ordenamiento/metodos-de-ordenamiento.iml" />
     </modules>
   </component>
 </project>
