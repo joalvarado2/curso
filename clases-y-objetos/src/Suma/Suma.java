@@ -1,3 +1,5 @@
+package Suma;
+
 public class Suma {
     private  int vUno, vDos, resultado;
 

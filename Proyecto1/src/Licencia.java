@@ -9,11 +9,15 @@ public class Licencia extends JFrame implements ActionListener, ChangeListener {
     private JButton boton1, boton2;
     private JScrollPane scrollPane1;
     private JTextArea textArea1;
+    String nombre = "";
 
     public Licencia() {
         setLayout(null);
+        setDefaultCloseOperation(EXIT_ON_CLOSE);
         setTitle("licencia de uso");
         setIconImage(new ImageIcon(getClass().getResource("images/icon.png")).getImage());
+        Bienvenida ventanaBienvenida = new Bienvenida();
+        nombre = ventanaBienvenida.texto;
 
         label1 = new JLabel(("TERMINOS Y CONDICIONES"));
         label1.setBounds(215, 5, 200, 30);
@@ -29,8 +33,8 @@ public class Licencia extends JFrame implements ActionListener, ChangeListener {
                 "\n\n           B. Prohibida............." +
                 "\n\n           C. Prohibida............." +
                 "\n             There are many variations of passages of Lorem Ipsum available, but the majority have " +
-                "\n             suffered alteration in some form, by injected humour, or randomised words which don't ,"+
-                "\n             look even slightly believable. If you are going to use a passage of Lorem Ipsum"+
+                "\n             suffered alteration in some form, by injected humour, or randomised words which don't ," +
+                "\n             look even slightly believable. If you are going to use a passage of Lorem Ipsum" +
                 "\n\n           D. Prohibida............." +
                 "\n\n           E. Prohibida............."
 
@@ -39,7 +43,7 @@ public class Licencia extends JFrame implements ActionListener, ChangeListener {
         scrollPane1.setBounds(10, 40, 575, 200);
         add(scrollPane1);
 
-        check1 = new JCheckBox("Yo Acepto");
+        check1 = new JCheckBox("Yo " + nombre + " Acepto");
         check1.setBounds(10, 250, 300, 30);
         check1.addChangeListener(this);
         add(check1);
@@ -65,12 +69,35 @@ public class Licencia extends JFrame implements ActionListener, ChangeListener {
 
     @Override
     public void actionPerformed(ActionEvent e) {
+        if (e.getSource() == boton1) {
 
+            Principal ventanaPrincipal = new Principal();
+            ventanaPrincipal.setBounds(0, 0, 640, 535);
+            ventanaPrincipal.setVisible(true);
+            ventanaPrincipal.setResizable(true);
+            ventanaPrincipal.setLocationRelativeTo(null);
+            this.setVisible(false);
+
+        } else if (e.getSource() == boton2) {
+
+            Bienvenida ventanabienvenida = new Bienvenida();
+            ventanabienvenida.setBounds(0, 0, 350, 450);
+            ventanabienvenida.setVisible(true);
+            ventanabienvenida.setResizable(false);
+            ventanabienvenida.setLocationRelativeTo(null);
+            this.setVisible(false);
+        }
     }
 
     @Override
     public void stateChanged(ChangeEvent e) {
-
+        if (check1.isSelected() == true) {
+            boton1.setEnabled(true);
+            boton2.setEnabled(false);
+        } else {
+            boton1.setEnabled(false);
+            boton2.setEnabled(true);
+        }
     }
 
     public static void main(String[] args) {

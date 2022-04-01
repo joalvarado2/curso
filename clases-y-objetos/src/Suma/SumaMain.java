@@ -1,3 +1,7 @@
+package Suma;
+
+import Suma.Suma;
+
 import java.util.Scanner;
 
 public class SumaMain {

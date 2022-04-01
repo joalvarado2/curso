@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bb961bb8-24e4-456a-99db-7d1d976717f1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/clases-y-objetos/src/AreaRectangulo/Rectangulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clases-y-objetos/src/AreaRectangulo/RectanguloMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clases-y-objetos/src/Suma/Suma.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clases-y-objetos/src/Suma/SumaMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clases-y-objetos/src/lavadora_uno/Lavadora_Uno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ejercicios-logicos/src/Cadena.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ejercicios-logicos/src/Ciclos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ejercicios-logicos/src/Ciclos2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ejercicios-logicos/src/Fibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ejercicios-logicos/src/InversorDePalabras.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ejercicios-logicos/src/Matriz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ejercicios-logicos/src/Vacacionales.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interfaces/interfaces.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interfaces/src/Boton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interfaces/src/CheckBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interfaces/src/ComboBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interfaces/src/ComboBox2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interfaces/src/Formulario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interfaces/src/LeerFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interfaces/src/Operacion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interfaces/src/Parseo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interfaces/src/RadioButon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interfaces/src/SubMenus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interfaces/src/Terminos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interfaces/src/TextArea.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/curso.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto1/proyecto1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicios-logicos/ejercicios-logicos.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/curso.iml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="278ImPkj3kyjlbutV9Q9xIwdRnv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="company" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+      <module name="curso" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bb961bb8-24e4-456a-99db-7d1d976717f1" name="Default Changelist" comment="" />
+      <created>1648695445979</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1648695445979</updated>
+    </task>
+    <servers />
+  </component>
+</project>

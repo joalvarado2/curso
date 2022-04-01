@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class Padre {
+public class Padre {
+    public void Saludar() {
+        System.out.println("Hola, yo soy el padre");
+    }
 }
