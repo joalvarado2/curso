@@ -2,7 +2,7 @@ package clases;
 
 import java.util.Scanner;
 
-public class ClasePadre_Abstracta {
+public abstract class ClasePadre_Abstracta {
     protected int transacciones, retiro, deposito;
     private static int saldo;
     Scanner entrada = new Scanner(System.in);
@@ -29,11 +29,14 @@ public class ClasePadre_Abstracta {
             } while (bandera == 0);
 
             if (seleccion == 1) {
-
+                ClasePadre_Abstracta mensajero = new ClaseHija_Consulta();
+                mensajero.Transacciones();
             } else if (seleccion == 2) {
-
+                ClasePadre_Abstracta mensajero = new ClaseHija_Retiro();
+                mensajero.Transacciones();
             } else if (seleccion == 3) {
-
+                ClasePadre_Abstracta mensajero = new ClaseHija_Deposito();
+                mensajero.Transacciones();
             } else if (seleccion == 4) {
                 System.out.println("========================");
                 System.out.println("Gracias, Vuelva pronto!");
@@ -43,5 +46,27 @@ public class ClasePadre_Abstracta {
 
         } while (bandera != 2);
 
+    }
+
+    // metodo para solicitar cantidad de retiro
+    public void Retiro() {
+        retiro = entrada.nextInt();
+    }
+
+    // metodo para solicitar deposito
+    public void Deposito() {
+        deposito = entrada.nextInt();
+    }
+
+    // metodo para aplicar polimorfismo
+    public abstract void Transacciones();
+
+    // Getters and Setters
+    public int getSaldo() {
+        return saldo;
+    }
+
+    public void setSaldo(int saldo) {
+        this.saldo = saldo;
     }
 }
